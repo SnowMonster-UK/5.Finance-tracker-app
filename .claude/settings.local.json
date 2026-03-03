@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create vite@latest finance-tracker -- --template react-ts)",
+      "Bash(npm install)",
+      "Bash(npm install tailwindcss @tailwindcss/vite class-variance-authority clsx tailwind-merge tw-animate-css lucide-react radix-ui recharts zustand date-fns zod react-router-dom)",
+      "Bash(npx shadcn@latest add button card input table tabs dialog select badge label separator scroll-area tooltip -y)",
+      "Bash(npm run build)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(git push https://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@github.com/SnowMonster-UK/5.Finance-tracker-app.git main)",
+      "Bash(git init)",
+      "Bash(git add -A)"
+    ]
+  }
+}
