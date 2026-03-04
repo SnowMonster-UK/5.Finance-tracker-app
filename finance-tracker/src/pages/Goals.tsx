@@ -278,7 +278,7 @@ export function Goals() {
                             {typeLabels[goal.type as keyof typeof typeLabels]}
                           </Badge>
                           {isAutoTracked && (
-                            <Zap className="h-3 w-3 text-amber-500" title="Auto-tracked" />
+                            <Zap className="h-3 w-3 text-amber-500" aria-label="Auto-tracked" />
                           )}
                         </div>
                         {hasAmounts && (
